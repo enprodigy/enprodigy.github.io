@@ -1090,6 +1090,14 @@ text-align: center;
     padding-top: 3px;
     margin-top: 78px;
     display: inline-block;
+    -webkit-transform: scale(1);
+  	transform: scale(1);
+  	-webkit-transition: .3s ease-in-out;
+  	transition: .1s ease-in-out;
+  }
+  .pcprog_ugmain:hover {
+  	-webkit-transform: scale(1.1);
+  	transform: scale(1.1);
   }
   .pcprog_ugmain h4{
     color: #FFFFFF;
@@ -1119,11 +1127,12 @@ text-align: center;
     float: right;
     width: 42%;
     padding-right: 206px;
-    padding-top: 102px;
+    padding-top: 90px;
   }
   .pcprog_ugtext p{
-    font-size: 12px;
+    font-size: 15px;
     text-align: left;
+    line-height: 1.3em;
     font-family: 'Nanum Gothic', sans-serif;
 
   }
@@ -1137,6 +1146,14 @@ text-align: center;
     display: inline-block;
     float: right;
     margin-top: 78px;
+    -webkit-transform: scale(1);
+  	transform: scale(1);
+  	-webkit-transition: .3s ease-in-out;
+  	transition: .1s ease-in-out;
+  }
+  .pcprog_pgmain:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
   }
   .pcprog_pgmain h4{
     color: #FFFFFF;
@@ -1165,10 +1182,10 @@ text-align: center;
   .pcprog_pgtext {
     width: 40%;
     padding-left: 244px;
-    padding-top: 102px;
+    padding-top: 96px;
   }
   .pcprog_pgtext p{
-    font-size: 12px;
+    font-size: 15px;
     text-align: left;
     font-family: 'Nanum Gothic', sans-serif;
   }
@@ -1664,11 +1681,13 @@ text-align: center;
   }
   .pcrnd_desc {
     float: right;
-    width: 30%;
+    width: 31%;
     margin-top: 130px;
+    padding-right: 100px;
   }
+  /* As per Ayushi padding right given.*/
   .pcrnd_desc p{
-    font-size: 13px;
+    font-size: 15px;
     text-align: left;
     font-family: 'Nanum Gothic', sans-serif;
   }
@@ -1734,8 +1753,8 @@ text-align: center;
     line-height: 0.8em;
   }
   .pcstudents_donalddesig {
-    font-size: 10px;
-    color: #C4C4C4;
+    font-size: 11px;
+    color: #B3B3B3;
     display: inline-block;
     font-family: 'Nanum Gothic', sans-serif;
   }
@@ -1780,8 +1799,8 @@ text-align: center;
     font-family: 'Nanum Gothic', sans-serif;
   }
   .pcstudents_narendradesig p{
-    font-size: 10px;
-    color: #C4C4C4;
+    font-size: 11px;
+    color: #B3B3B3;
     padding-top: 4px;
     font-family: 'Nanum Gothic', sans-serif;
   }
@@ -1831,8 +1850,8 @@ text-align: center;
     font-family: 'Nanum Gothic', sans-serif;
   }
   .pcstudents_putindesig p{
-    font-size: 10px;
-    color: #C4C4C4;
+    font-size: 11px;
+    color: #B3B3B3;
     padding-top: 4px;
     font-family: 'Nanum Gothic', sans-serif;
   }
@@ -1963,7 +1982,7 @@ text-align: center;
   }
   .pcfooter_orglist li{
     text-align: left;
-    font-size: 11px;
+    font-size: 14px;
     padding-top: 13px;
     font-family: 'Nanum Gothic', sans-serif;
   }
@@ -1996,7 +2015,7 @@ text-align: center;
   .pcfooter_linklist li{
     text-align: left;
     margin-left: 6px;
-    font-size: 11px;
+    font-size: 14px;
     padding-top: 13px;
     font-family: 'Nanum Gothic', sans-serif;
   }
@@ -2028,7 +2047,7 @@ text-align: center;
   .pcfooter_supportlist li{
     text-align: left;
     margin-left: 6px;
-    font-size: 11px;
+    font-size: 14px;
     padding-top: 13px;
     font-family: 'Nanum Gothic', sans-serif;
   }
@@ -2060,7 +2079,7 @@ text-align: center;
   .pcfooter_reclist li{
     text-align: left;
     margin-left: 6px;
-    font-size: 11px;
+    font-size: 14px;
     padding-top: 13px;
     font-family: 'Nanum Gothic', sans-serif;
   }
@@ -2158,11 +2177,11 @@ text-align: center;
   .pcfooter_pslt ul li{
     float: left;
     padding-right: 16px;
-    font-size: 10px;
+    font-size: 13px;
     font-family: 'Nanum Gothic', sans-serif;
   }
   .pcfooter_pslt a{
-    color: #5E5E5E;
+    color: #A8A8A8;
   }
   .pcfooter_pslt a:hover{
     color: #CDCDCD;
