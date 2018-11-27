@@ -609,6 +609,7 @@ text-align: center;
   text-align: left;
   font-family: 'Nanum Gothic', sans-serif;
   font-size: 15px;
+  line-height: 1.3em;
   padding-top: 16px;
 }
 /* Research & development section end */
@@ -1187,6 +1188,7 @@ text-align: center;
   .pcprog_pgtext p{
     font-size: 15px;
     text-align: left;
+    line-height: 1.3em;
     font-family: 'Nanum Gothic', sans-serif;
   }
   /* End Of programs design section */
@@ -1689,6 +1691,7 @@ text-align: center;
   .pcrnd_desc p{
     font-size: 15px;
     text-align: left;
+    line-height: 1.3em;
     font-family: 'Nanum Gothic', sans-serif;
   }
   /* R&D section for pc end */
